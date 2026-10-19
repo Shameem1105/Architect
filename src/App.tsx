@@ -100,11 +100,11 @@ function Header({
 function Hero({ onExploreHero: _ }: { onExploreHero?: () => void }) {
   return (
     <section className="hero" id="top">
-      {/* Full-Segment Architectural Background Image featuring Tamil Nadu architecture */}
+      {/* Full-Segment Architectural Background Image */}
       <img
         className="hero__image"
-        src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2400&q=90"
-        alt="Shore Temple, Mahabalipuram, Tamil Nadu"
+        src="/images/masjid.jpg"
+        alt="Monumental Masjid Architecture"
         loading="eager"
       />
       <div className="hero__veil" />
@@ -112,7 +112,7 @@ function Hero({ onExploreHero: _ }: { onExploreHero?: () => void }) {
       {/* Hero Typography & Content */}
       <div className="hero__content">
         <p className="eyebrow hero__project">
-          01 / TECTONICS OF LIGHT &amp; STONE • TAMIL NADU
+          01 / TECTONICS OF LIGHT &amp; SACRED SPACE
         </p>
         <h1>
           Architecture
